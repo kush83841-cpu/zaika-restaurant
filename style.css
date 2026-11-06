@@ -7,18 +7,18 @@
 }
 
 :root {
-    --cream: #FFF8F0;
-    --cream-dark: #F7EBDD;
-    --white: #FFFFFF;
-    --brown: #3E2723;
-    --brown-light: #5D4037;
-    --orange: #E67E22;
-    --orange-dark: #CA6A1A;
-    --text: #4A3B32;
-    --muted: #8A7A6E;
-    --green: #2E9E44;
-    --red: #B3402A;
-    --shadow: 0 6px 24px rgba(62, 39, 35, 0.10);
+    --cream: #fff8f0;
+    --cream-dark: #f7ebdd;
+    --white: #ffffff;
+    --brown: #3e2723;
+    --brown-light: #5d4037;
+    --orange: #e67e22;
+    --orange-dark: #ca6a1a;
+    --text: #4a3b32;
+    --muted: #8a7a6e;
+    --green: #2e9e44;
+    --red: #b3402a;
+    --shadow: 0 6px 24px rgba(62, 39, 35, 0.1);
     --radius: 14px;
 }
 
@@ -28,7 +28,7 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     background: var(--cream);
     color: var(--text);
     line-height: 1.6;
@@ -62,7 +62,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     color: var(--brown);
 }
 
@@ -92,11 +92,13 @@ h4 {
     padding: 12px 26px;
     border: none;
     border-radius: 30px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
-    transition: background 0.3s, transform 0.2s;
+    transition:
+        background 0.3s,
+        transform 0.2s;
 }
 
 .btn:hover {
@@ -144,7 +146,7 @@ h4 {
 }
 
 .logo {
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-size: 28px;
     font-weight: 700;
     color: var(--brown);
@@ -201,7 +203,7 @@ h4 {
     min-height: 88vh;
     display: flex;
     align-items: center;
-    background: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+    background: url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80") center/cover no-repeat;
     color: #fff;
 }
 
@@ -221,7 +223,7 @@ h4 {
     letter-spacing: 4px;
     text-transform: uppercase;
     font-size: 13px;
-    color: #FFD9A8;
+    color: #ffd9a8;
     margin-bottom: 10px;
 }
 
@@ -232,9 +234,9 @@ h4 {
 }
 
 .hero-tagline {
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-size: 28px;
-    color: #FFD9A8;
+    color: #ffd9a8;
     margin: 12px 0 8px;
 }
 
@@ -289,7 +291,7 @@ h4 {
 
 .stat strong {
     display: block;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-size: 32px;
     color: var(--orange);
 }
@@ -317,7 +319,7 @@ h4 {
     border: 1.5px solid var(--brown);
     background: transparent;
     border-radius: 30px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-weight: 500;
     color: var(--brown);
@@ -377,7 +379,7 @@ h4 {
 }
 
 .price {
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-size: 19px;
     font-weight: 700;
     color: var(--orange);
@@ -394,7 +396,7 @@ h4 {
 }
 
 .veg::after {
-    content: '';
+    content: "";
     position: absolute;
     inset: 2px;
     border-radius: 50%;
@@ -484,14 +486,14 @@ h4 {
 }
 
 .testimonial footer {
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-weight: 600;
     color: var(--brown);
 }
 
 .testimonial footer span {
     display: block;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 13px;
     color: var(--muted);
@@ -546,7 +548,7 @@ h4 {
 }
 
 .footer h4 {
-    color: #FFD9A8;
+    color: #ffd9a8;
     font-size: 18px;
     margin-bottom: 14px;
 }
@@ -573,7 +575,7 @@ h4 {
 }
 
 .footer-bottom .demo-note {
-    color: #FFD9A8;
+    color: #ffd9a8;
     margin-top: 4px;
 }
 
@@ -637,9 +639,9 @@ h4 {
     width: 100%;
     margin-top: 6px;
     padding: 11px 12px;
-    border: 1.5px solid #E3D5C3;
+    border: 1.5px solid #e3d5c3;
     border-radius: 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     background: #fff;
     color: var(--text);
@@ -660,57 +662,58 @@ h4 {
 .booking-success {
     margin-top: 16px;
     padding: 14px;
-    background: #E7F6EA;
+    background: #e7f6ea;
     border: 1.5px solid var(--green);
     border-radius: 10px;
-    color: #1E6B31;
+    color: #1e6b31;
     font-size: 14px;
 }
 
 /* ===== Responsive ===== */
-@media (max-width: 900px) .menu-toggle {
-    display: block;
-}
+@media (max-width: 900px) {
+    .menu-toggle {
+        display: block;
+    }
 
-.nav {
-    display: none;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    right: 0;
-    background: var(--cream);
-    flex-direction: column;
-    gap: 0;
-    box-shadow: 0 12px 20px rgba(62, 39, 35, 0.12);
-}
+    .nav {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background: var(--cream);
+        flex-direction: column;
+        gap: 0;
+        box-shadow: 0 12px 20px rgba(62, 39, 35, 0.12);
+    }
 
-.nav.open {
-    display: flex;
-}
+    .nav.open {
+        display: flex;
+    }
 
-.nav a {
-    padding: 14px 20px;
-    border-top: 1px solid #EFE3D2;
-}
+    .nav a {
+        padding: 14px 20px;
+        border-top: 1px solid #efe3d2;
+    }
 
-.demo-badge {
-    display: none;
-}
+    .demo-badge {
+        display: none;
+    }
 
-.about-grid,
-.contact-grid {
-    grid-template-columns: 1fr;
-}
+    .about-grid,
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
 
-.menu-grid,
-.gallery-grid,
-.testimonials-grid {
-    grid-template-columns: repeat(2, 1fr);
-}
+    .menu-grid,
+    .gallery-grid,
+    .testimonials-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
-.about-image img {
-    height: 320px;
-}
+    .about-image img {
+        height: 320px;
+    }
 }
 
 @media (max-width: 600px) {
